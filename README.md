@@ -21,6 +21,7 @@ The input data is a In the Pre processing of the Data the attributes are coded i
     
    
    **Approach for Building the model**
+   
    Left attribute (having_IP_Address's type) as there is n't much variation in the data while creating predictors.
    Applied GridsearchCV to find out Best K (number of neighbors) and used weights as 'distance' with cv = 5 for KNN Classifier
    
